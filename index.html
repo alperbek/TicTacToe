@@ -1,13 +1,36 @@
-<!DOCTYPE html>
+<html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <table id="xox">
+        <tr>
+          <td data-x='0' data-y='0'></td>
+          <td data-x='1' data-y='0'></td>
+          <td data-x='2' data-y='0'></td>
+        </tr>
+        <tr>
+          <td data-x='0' data-y='1'></td>
+          <td data-x='1' data-y='1'></td>
+          <td data-x='2' data-y='1'></td>
+        </tr>
+        <tr>
+          <td data-x='0' data-y='2'></td>
+          <td data-x='1' data-y='2'></td>
+          <td data-x='2' data-y='2'></td>
+        </tr>
+      </table>
+      <div>Sıradaki Oyuncu: <span id="player"></span></div>
+      <div>Kazanan: <span id="winner"></span></div>
+      <button id="restart">
+        Yeniden Başlat
+      </button>
+      </button>
     <script src="main.js"></script>
 </body>
 </html>
